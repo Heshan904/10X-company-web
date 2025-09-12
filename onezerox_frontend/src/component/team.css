@@ -15,22 +15,8 @@
 .team-heading {
   font-size: 60px;
   text-align: right;
-  margin-right: 20px;
   margin-left: auto;
-}
-
-@media (max-width: 768px) {
-  .team-heading {
-    font-size: 40px;
-  }
-}
-
-@media (max-width: 480px) {
-  .team-heading {
-    font-size: 28px;
-    text-align: center;
-    margin: 0;
-  }
+  margin-right: 20px;
 }
 
 /* Box container for members */
@@ -58,8 +44,7 @@
   align-items: center;
   justify-content: center;
   transition: all 0.3s ease;
-  
-    box-shadow: 0 1vw 2vw rgba(0, 0, 0, 0.3);
+  box-shadow: 0 1vw 2vw rgba(0, 0, 0, 0.3);
 }
 
 .tbox:hover {
@@ -69,31 +54,54 @@
 
 /* Image Styling */
 .timg {
-  height: 350px;
-  width: 100%;
+  height: 330px;
+  width: max-content;
   object-fit: cover;
   border-radius: 20px;
 }
 
-@media (max-width: 768px) {
-  .timg {
-    height: 300px;
-  }
-}
-
-@media (max-width: 480px) {
-  .tbox {
-    padding: 15px;
-  }
-
-  .timg {
-    height: 250px;
-  }
-}
-
-/* Optional Paragraph Styling for Readability */
+/* Optional Paragraph Styling */
 .tpara p {
   margin-bottom: 10px;
   line-height: 1.6;
   text-align: justify;
+}
+
+/* ===== Media Queries ===== */
+
+/* Tablets */
+@media (max-width: 768px) {
+  .team-heading {
+    font-size: 40px;
+    text-align: center;   /* Better centered on tablets */
+    margin: 0;
+  }
+
+  .timg {
+    height: 300px;
+  }
+
+  .bmain {
+    gap: 40px;
+  }
+}
+
+/* Mobile Phones */
+@media (max-width: 480px) {
+  .team-heading {
+    font-size: 28px;
+  }
+
+  .tbox {
+    padding: 15px;
+    max-width: 100%; /* Ensure full width on small screens */
+  }
+
+  .timg {
+    height: 220px;
+  }
+
+  .bmain {
+    gap: 20px;
+  }
 }
