@@ -32,7 +32,7 @@ function Project() {
             <h1>Our company website</h1>
             <p>The frontend is developed using React.js and Bootstrap, offering a seamless, fast, and interactive interface optimized for all devices. With component-based architecture and responsive design, the site ensures high performance and accessibility.</p>
             <p>The backend is powered by Node.js and MySQL, providing a robust and scalable foundation for data management, API integrations, and secure server-side operations.</p>
-            <a href="https://10-x-company-web.vercel.app/" target='_blank' rel='noreferrer'><button style={{border:"2px solid green", borderRadius:"10px", width:"fit-content", cursor:"pointer",fontSize:"20px",alignSelf:"center" ,color:'black'}}>View preview</button></a>
+            
           </div>
         </div>
         <div className="subpro">
@@ -51,7 +51,7 @@ function Project() {
             <h1>Library Management System</h1>
             <p>Our Library Management System is a simple yet powerful solution designed to streamline the process of managing books and members within an organization. It provides an easy-to-use interface where administrators can add, update, and organize books, while members can search, borrow, and return them efficiently.</p>
             <p>With features such as real-time book availability, member records, and borrowing history, the system reduces manual work and ensures smooth library operations. Built with scalability and user-friendliness in mind, it can be adapted for schools, universities, and small organizations looking for a reliable digital library solution.</p>
-            <a href=" " target='_blank' rel='noreferrer'><button style={{border:"2px solid green", borderRadius:"10px", width:"fit-content", cursor:"pointer",fontSize:"20px",alignSelf:"center" ,color:'black'}}>View preview</button></a>
+            
           </div>
         </div>
         <div className="subpro">
@@ -70,7 +70,24 @@ function Project() {
             <h1>Ai Chatbot</h1>
             <p>AI Chatbot with DeepSeek API Developed a full-stack chatbot application using Angular frontend, Node.js with Express backend, and MySQL database, integrated with the DeepSeek Reasoner model to generate intelligent, context-aware responses. The system provides a real-time chat interface, stores user queries and responses for history/analytics, and features secure API handling with a scalable architecture, making it adaptable for education, customer support, and general Q&A use cases.</p>
           
-            <a href=" " target='_blank' rel='noreferrer'><button style={{border:"2px solid green", borderRadius:"10px", width:"fit-content", cursor:"pointer",fontSize:"20px",alignSelf:"center" ,color:'black'}}>View preview</button></a>
+          </div>
+        </div>
+        <div className="subpro">
+          
+          <div
+            className="img"
+            style={{
+              backgroundImage: `url(https://res.cloudinary.com/da2wbtci0/image/upload/v1757784324/Screenshot_2025-09-13_225219_qgj2tz.png)`,
+              backgroundSize: 'cover',
+              backgroundPosition: 'center', // You can adjust this
+              width: '100%',
+                  // You can also use a fixed width if needed
+            }}
+          ></div>
+          <div className="pdis">
+            <h1>Student Management System</h1>
+            <p>Uniflow is a smart, web-based Student Management System built with React, Node.js, and MongoDB. It simplifies academic administration by bringing student records, attendance, courses, and communication into one seamless platform. With its user-friendly design and scalable architecture, Uniflow helps institutions save time, improve efficiency, and create a better learning experience for students and staff.</p>
+          
           </div>
         </div>
         

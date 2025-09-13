@@ -6,6 +6,7 @@
   padding: 20px; /* ensures spacing on small screens */
   box-sizing: border-box;
   flex-direction: column;
+  animation: slideAndScale 1s ease forwards;
 }
 
 .mbox {
@@ -73,4 +74,14 @@
     border-radius: 20px;
     padding: 20px 10px;
     background:none;
+}
+@keyframes slideAndScale {
+  0% {
+    transform: translateX(0px) scale(1);
+    opacity: 0;
+  }
+  100% {
+    transform: translateX(0) scale(1);
+    opacity: 1;
+  }
 }

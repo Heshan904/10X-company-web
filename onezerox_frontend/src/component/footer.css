@@ -3,6 +3,7 @@
   color: #ffffff;
   padding: 40px 20px;
   font-size: 14px;
+  animation: slideAndScale 1s ease forwards;
 }
 
 .footer-container {

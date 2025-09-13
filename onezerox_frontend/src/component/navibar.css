@@ -19,6 +19,7 @@
     box-sizing: border-box;
     border: none;
     color: white; /* default color */
+    animation: slideAndScale 1s ease forwards;
 }
 
 

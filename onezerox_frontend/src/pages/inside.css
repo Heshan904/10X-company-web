@@ -5,6 +5,7 @@
   min-height: 100vh;
   font-family: 'Inter', sans-serif;
   text-align: center;
+  animation: slideAndScale 1s ease forwards;
 }
 
 .gallery-title {

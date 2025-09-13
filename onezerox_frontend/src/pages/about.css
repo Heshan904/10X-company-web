@@ -4,6 +4,7 @@
   background-color: #f0fdf4;
   padding: 0;
   margin: 0;
+  animation: slideAndScale 1s ease forwards;
 }
 
 .about-header {
